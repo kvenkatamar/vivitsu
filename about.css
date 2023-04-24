@@ -57,6 +57,18 @@ img{
     background-color: skyblue;
 }
 
+#aboutUs #vivitsu .notice{
+    text-align: center;
+    color: rgb(0, 150, 0);
+    font-weight: bold;
+}
+
+#aboutUs #vivitsu .notice a{
+    color: blue;
+    padding: 5px;
+    text-decoration: underline;
+}
+
 #aboutUs #fsw{
     background-color: rgb(255, 99, 99);
 }
