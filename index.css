@@ -361,6 +361,10 @@ hr{
     width: 16rem;
 }
 
+#sponsors .other-sponsors .associate-sponsors ul img.smart{
+    width: 7.5rem;
+}
+
 /* #sponsors .other-sponsors .associate-sponsors ul li{
     display: flex;
     align-items: center;
