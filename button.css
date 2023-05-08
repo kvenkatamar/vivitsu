@@ -28,7 +28,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
     color: white;
-    background: #6225E6;
+    background: #5e5e5e;
     transition: 1s;
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
@@ -40,7 +40,7 @@ body {
 
 .cta:hover {
     transition: 0.5s;
-    box-shadow: 10px 10px 0 #FBC638;
+    box-shadow: 10px 10px 0 #e7e7e7;
 }
 
 .cta span:nth-child(2) {
@@ -88,6 +88,16 @@ path.two {
 .cta:hover path.two {
     transform: translateX(0%);
     animation: color_anim 1s infinite 0.4s;
+}
+
+.expired{
+    position: relative;
+    top: -108px;
+    left: 180px;
+    z-index: 10;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* SVG animations */
